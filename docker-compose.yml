@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+      POSTGRES_DB: wa_laboratory
+    ports:
+      - 5432:5432
+
+  api:
+    build: .
+    command: node dist/main.js
+    ports:
+      - '3000:3000'
+    depends_on:
+      - postgres
