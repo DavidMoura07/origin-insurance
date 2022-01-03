@@ -118,7 +118,7 @@ It is not necessary to build the screens a user would interact with, however, as
 
 ## Documentation
 The documentation can be found at /docs by 
-[swagger](https://wa-laboratory.herokuapp.com/docs/).
+[swagger](https://origin-insurance-api.herokuapp.com/docs/).
 
  
 ## Installation
