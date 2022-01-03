@@ -25,7 +25,7 @@
 ## Description
 
 This repository is node API using NestJs for a simple application that manager insurance packages.
-It includes one endpoint to indicate plans of insurance for those  categories: auto, disability, home, life.
+It includes one endpoint to indicate plans of insurance for those  categories: auto, disability, home and life.
 
 More about this application:
 
